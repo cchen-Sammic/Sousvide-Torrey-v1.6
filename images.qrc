@@ -1,0 +1,30 @@
+<RCC>
+    <qresource prefix="/">
+        <file>mas.png</file>
+        <file>menos.png</file>
+        <file>start.png</file>
+        <file>set.png</file>
+        <file>plantilla.png</file>
+        <file>switch_off.png</file>
+        <file>switch_on.png</file>
+        <file>cf.png</file>
+        <file>icon.png</file>
+        <file>icon.ico</file>
+        <file>ledAviso_Off.png</file>
+        <file>ledAviso_On.png</file>
+        <file>ledCalor_Off.png</file>
+        <file>ledCalor_On.png</file>
+        <file>ledTimer_Off.png</file>
+        <file>ledTimer_On.png</file>
+        <file>ledC_On.png</file>
+        <file>ledF_On.png</file>
+        <file>ledSet_Off.png</file>
+        <file>ledSet_On.png</file>
+        <file>ledC_Off.png</file>
+        <file>ledF_Off.png</file>
+    </qresource>
+    <qresource prefix="/aviso">
+        <file>agua00.png</file>
+        <file>agua0.png</file>
+    </qresource>
+</RCC>
