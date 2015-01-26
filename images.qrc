@@ -2,7 +2,6 @@
     <qresource prefix="/">
         <file>mas.png</file>
         <file>menos.png</file>
-        <file>start.png</file>
         <file>set.png</file>
         <file>plantilla.png</file>
         <file>switch_off.png</file>
@@ -22,6 +21,7 @@
         <file>ledSet_On.png</file>
         <file>ledC_Off.png</file>
         <file>ledF_Off.png</file>
+        <file>start.png</file>
     </qresource>
     <qresource prefix="/aviso">
         <file>agua00.png</file>

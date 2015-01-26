@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>366</width>
-    <height>486</height>
+    <width>379</width>
+    <height>522</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -39,7 +39,7 @@
    <widget class="QPushButton" name="button_set">
     <property name="geometry">
      <rect>
-      <x>82</x>
+      <x>83</x>
       <y>236</y>
       <width>37</width>
       <height>37</height>
@@ -67,7 +67,7 @@
    <widget class="QPushButton" name="button_menos">
     <property name="geometry">
      <rect>
-      <x>127</x>
+      <x>128</x>
       <y>236</y>
       <width>37</width>
       <height>37</height>
@@ -77,6 +77,15 @@
      <font>
       <kerning>false</kerning>
      </font>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::TabFocus</enum>
+    </property>
+    <property name="acceptDrops">
+     <bool>false</bool>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
     </property>
     <property name="icon">
      <iconset resource="images.qrc">
@@ -92,7 +101,7 @@
    <widget class="QPushButton" name="button_mas">
     <property name="geometry">
      <rect>
-      <x>174</x>
+      <x>173</x>
       <y>236</y>
       <width>37</width>
       <height>37</height>
@@ -102,6 +111,9 @@
      <font>
       <kerning>false</kerning>
      </font>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::TabFocus</enum>
     </property>
     <property name="icon">
      <iconset resource="images.qrc">
@@ -117,7 +129,7 @@
    <widget class="QPushButton" name="button_start">
     <property name="geometry">
      <rect>
-      <x>219</x>
+      <x>218</x>
       <y>236</y>
       <width>37</width>
       <height>37</height>
@@ -127,6 +139,9 @@
      <font>
       <kerning>false</kerning>
      </font>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::TabFocus</enum>
     </property>
     <property name="icon">
      <iconset resource="images.qrc">
@@ -138,13 +153,19 @@
       <height>37</height>
      </size>
     </property>
+    <property name="checkable">
+     <bool>false</bool>
+    </property>
+    <property name="default">
+     <bool>false</bool>
+    </property>
    </widget>
    <widget class="QLCDNumber" name="lcdNumber">
     <property name="geometry">
      <rect>
       <x>100</x>
-      <y>130</y>
-      <width>101</width>
+      <y>110</y>
+      <width>115</width>
       <height>41</height>
      </rect>
     </property>
@@ -233,6 +254,9 @@ background-color: rgb(168, 168, 168);
     </property>
    </widget>
    <widget class="QLabel" name="fondo_pantalla">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
     <property name="geometry">
      <rect>
       <x>80</x>
@@ -251,8 +275,8 @@ background-color: rgb(168, 168, 168);
    <widget class="QLabel" name="ledAviso">
     <property name="geometry">
      <rect>
-      <x>230</x>
-      <y>90</y>
+      <x>194</x>
+      <y>88</y>
       <width>20</width>
       <height>20</height>
      </rect>
@@ -271,13 +295,13 @@ background-color: rgb(168, 168, 168);
     <property name="geometry">
      <rect>
       <x>100</x>
-      <y>180</y>
+      <y>160</y>
       <width>101</width>
       <height>21</height>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(0, 0, 0);
+     <string notr="true">background-color: rgb(35, 31, 32);
 color: rgb(255, 255, 255);
 font: 75 10pt &quot;MS Shell Dlg 2&quot;;</string>
     </property>
@@ -288,8 +312,8 @@ font: 75 10pt &quot;MS Shell Dlg 2&quot;;</string>
    <widget class="QLabel" name="ledSet">
     <property name="geometry">
      <rect>
-      <x>100</x>
-      <y>90</y>
+      <x>99</x>
+      <y>88</y>
       <width>20</width>
       <height>20</height>
      </rect>
@@ -311,7 +335,7 @@ font: 75 10pt &quot;MS Shell Dlg 2&quot;;</string>
     <property name="geometry">
      <rect>
       <x>130</x>
-      <y>90</y>
+      <y>88</y>
       <width>20</width>
       <height>20</height>
      </rect>
@@ -333,7 +357,7 @@ font: 75 10pt &quot;MS Shell Dlg 2&quot;;</string>
     <property name="geometry">
      <rect>
       <x>160</x>
-      <y>90</y>
+      <y>88</y>
       <width>20</width>
       <height>20</height>
      </rect>
@@ -351,8 +375,8 @@ font: 75 10pt &quot;MS Shell Dlg 2&quot;;</string>
    <widget class="QLabel" name="ledTempC">
     <property name="geometry">
      <rect>
-      <x>212</x>
-      <y>130</y>
+      <x>220</x>
+      <y>106</y>
       <width>16</width>
       <height>16</height>
      </rect>
@@ -370,8 +394,8 @@ font: 75 10pt &quot;MS Shell Dlg 2&quot;;</string>
    <widget class="QLabel" name="ledTempF">
     <property name="geometry">
      <rect>
-      <x>212</x>
-      <y>150</y>
+      <x>220</x>
+      <y>134</y>
       <width>16</width>
       <height>16</height>
      </rect>
@@ -403,8 +427,8 @@ font: 75 10pt &quot;MS Shell Dlg 2&quot;;</string>
     <property name="geometry">
      <rect>
       <x>100</x>
-      <y>130</y>
-      <width>101</width>
+      <y>110</y>
+      <width>115</width>
       <height>41</height>
      </rect>
     </property>
@@ -416,7 +440,7 @@ font: 75 10pt &quot;MS Shell Dlg 2&quot;;</string>
     </property>
     <property name="maximumSize">
      <size>
-      <width>101</width>
+      <width>115</width>
       <height>41</height>
      </size>
     </property>
@@ -430,7 +454,7 @@ font: 75 10pt &quot;MS Shell Dlg 2&quot;;</string>
      <pixmap resource="images.qrc">:/aviso/agua0.png</pixmap>
     </property>
     <property name="scaledContents">
-     <bool>true</bool>
+     <bool>false</bool>
     </property>
    </widget>
    <widget class="QTextEdit" name="textEdit">
@@ -449,16 +473,15 @@ p, li { white-space: pre-wrap; }
 &lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-style:italic;&quot;&gt;** NOTA **&lt;/span&gt;&lt;/p&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;En esta versión no está incluido las siguientes funciones:&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;- Cuantar en negativo cuando termina el ciclo&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;- Contar los minutos en negativo cuando termina el ciclo&lt;/p&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;- modificación de los parámetros cuando está dentro del ciclo con el SET&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
     </property>
    </widget>
-   <zorder>background</zorder>
    <zorder>fondo_pantalla</zorder>
+   <zorder>background</zorder>
    <zorder>button_set</zorder>
    <zorder>button_menos</zorder>
    <zorder>button_mas</zorder>
-   <zorder>button_start</zorder>
    <zorder>texto</zorder>
    <zorder>button_power</zorder>
    <zorder>button_temperatura</zorder>
@@ -473,13 +496,14 @@ p, li { white-space: pre-wrap; }
    <zorder>lcdNumber</zorder>
    <zorder>llenarAgua</zorder>
    <zorder>textEdit</zorder>
+   <zorder>button_start</zorder>
   </widget>
   <widget class="QMenuBar" name="menuBar">
    <property name="geometry">
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>366</width>
+     <width>379</width>
      <height>21</height>
     </rect>
    </property>
