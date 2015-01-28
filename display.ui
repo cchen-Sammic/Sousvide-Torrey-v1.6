@@ -64,40 +64,6 @@
      </size>
     </property>
    </widget>
-   <widget class="QPushButton" name="button_menos">
-    <property name="geometry">
-     <rect>
-      <x>128</x>
-      <y>236</y>
-      <width>37</width>
-      <height>37</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <kerning>false</kerning>
-     </font>
-    </property>
-    <property name="focusPolicy">
-     <enum>Qt::TabFocus</enum>
-    </property>
-    <property name="acceptDrops">
-     <bool>false</bool>
-    </property>
-    <property name="autoFillBackground">
-     <bool>false</bool>
-    </property>
-    <property name="icon">
-     <iconset resource="images.qrc">
-      <normaloff>:/menos.png</normaloff>:/menos.png</iconset>
-    </property>
-    <property name="iconSize">
-     <size>
-      <width>37</width>
-      <height>37</height>
-     </size>
-    </property>
-   </widget>
    <widget class="QPushButton" name="button_mas">
     <property name="geometry">
      <rect>
@@ -137,11 +103,14 @@
     </property>
     <property name="font">
      <font>
-      <kerning>false</kerning>
+      <kerning>true</kerning>
      </font>
     </property>
     <property name="focusPolicy">
-     <enum>Qt::TabFocus</enum>
+     <enum>Qt::StrongFocus</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
     </property>
     <property name="icon">
      <iconset resource="images.qrc">
@@ -477,10 +446,33 @@ p, li { white-space: pre-wrap; }
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;- modificación de los parámetros cuando está dentro del ciclo con el SET&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
     </property>
    </widget>
+   <widget class="QPushButton" name="button_menos">
+    <property name="geometry">
+     <rect>
+      <x>127</x>
+      <y>236</y>
+      <width>37</width>
+      <height>37</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normalon>:/menos.png</normalon>
+     </iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>37</width>
+      <height>37</height>
+     </size>
+    </property>
+   </widget>
    <zorder>fondo_pantalla</zorder>
    <zorder>background</zorder>
    <zorder>button_set</zorder>
-   <zorder>button_menos</zorder>
    <zorder>button_mas</zorder>
    <zorder>texto</zorder>
    <zorder>button_power</zorder>
@@ -497,6 +489,7 @@ p, li { white-space: pre-wrap; }
    <zorder>llenarAgua</zorder>
    <zorder>textEdit</zorder>
    <zorder>button_start</zorder>
+   <zorder>button_menos</zorder>
   </widget>
   <widget class="QMenuBar" name="menuBar">
    <property name="geometry">
